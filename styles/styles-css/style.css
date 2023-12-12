@@ -1,0 +1,29 @@
+
+/* ========================================= */
+/* ===== CSS rules to specify families ===== */
+/* ========================================= */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-img-1 {
+    /* background-image: url("../../images/banner.png");
+    height: 100vh;
+    background-repeat: no-repeat; */
+}
+.banner-img-2 {
+    background-image: url("../../images/");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.banner-img-3 {
+    background-image: url("../../images/");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.banner-img-4 {
+    background-image: url("../../images/");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
