@@ -32,30 +32,34 @@
         <link rel="stylesheet" href="styles/bootstrap-css/bootstrap.css">
         
         <!-- ===== 
-            ===== External JavaScript =====
+            ====== External JavaScript ======
             #1 - JavaScript can be placed in the <head>, or in the <body> section, or in both.
             #2 - In HTML, JavaScript code is inserted between <script> and </script> tags.
             #3 - You can place any number of scripts in an HTML document.
             #4 - To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:
-        ===== -->
+        ======= -->
         <!-- ===== Bootstrap js styles reference link will be here Or in the bottom of body tag =====  -->
         <script src=""></script>
         
-        <!-- ===== Google font link ===== -->
+        <!-- ====== Google font link ====== -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@500&family=Open+Sans:wght@700&family=Poppins&family=Roboto:wght@300;400;500&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
-        
-        
-        <!-- ===== Google icon(s) link ===== -->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@500&family=Open+Sans:wght@700&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
 
 
-        <!-- ===== font-awesome reference link =====  -->
+        <!-- ====== Boxicons website reference link ======  -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+        <!-- ====== Google icon(s) link ====== -->
+
+
+        <!-- ====== Font Awesome CDN reference link ======  -->
         <script src="https://kit.fontawesome.com/4aea96c79d.js" crossorigin="anonymous"></script>
 
     </head>
     <!-- The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
-    <body>
+    <body class="">
         <!-- ===== Header with Navbar Start -->
         <header class="">
             <div>
@@ -179,14 +183,74 @@
                             <img class="w-100 img-fluid" src="images/wedding.png" alt="">
                         </div>
                         <div class="col-md-6">
-                            <h5 class="display-6 fw-bold">Every moment is Precious</h5>
-                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                            <button type="button" class="btn-custom btn-primary btn-lg opacity-75 mt-3">Explore our album <i class="fa-solid fa-arrow-right ps-2"></i></button>
+                            <h5 class="display-6 fw-bold mb-3 ms-3">Every moment is Precious</h5>
+
+                            <!-- ====== Toast Notification window - 1 ====== -->
+                            <!-- <div class="">
+                                <div class="position-absolute end-0 d-flex shadow-lg border-start border-5 border-primary opacity-75 bg-white py-2 me-4">
+                                    <div class="d-flex align-items-center ms-3">
+                                        <img class="" src="icons/Vector.svg" alt="">
+                                        <div class="text">
+                                            <small class="ms-2 me-4">20% off on next booking</small>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-x fa-2xs pt-1 pe-2"></i>
+                                </div>
+                            </div> -->
+
+                            <!-- ====== Toast Notification window - 2 ====== -->
+                            <!-- <div class="">
+                                <div class="position-absolute end-0 d-flex shadow-lg border-start border-5 border-primary opacity-75 bg-white py-2 me-4">
+                                    <div class="d-flex align-items-center ms-3">
+                                        <i class="fa-solid fa-gift fa-xl text-primary"></i>
+                                        <div class="text">
+                                            <small class="ms-2 me-4">20% off on next booking</small>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-x fa-2xs pt-1 pe-2"></i>
+                                </div>
+                            </div> -->
+
+                            <p class="text-secondary fw-bold ms-3 me-5 pe-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <button type="button" class="btn-custom btn-primary btn-lg opacity-75 fs-6 fw-bold mt-3 ms-3 px-4">Explore our album <img class="ms-2" src="icons/arrow-forward 1.svg" alt=""> </button>
+                            <!-- <button type="button" class="btn-custom btn-primary btn-lg opacity-75 mt-3">Explore our album <i class="fa-solid fa-arrow-right ps-2"></i><img src="icons/arrow-forward 1.svg" alt=""></button> -->
+                        </div>
+                    </div>
+                    <!-- ====== Toast Notification window - 3 ====== -->
+                    <!-- <div class="">
+                        <div class="custom-toast position-absolute end-0 d-flex shadow-lg border-start border-5 border-primary opacity-75 bg-white py-2 me-4">
+                            <div class="d-flex align-items-center ms-3">
+                                <i class="fa-solid fa-gift fa-xl text-primary"></i>
+                                <div class="text">
+                                    <small class=" ms-2 me-4">20% off on next booking</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-x fa-2xs pt-1 pe-2"></i>
+                        </div>
+                    </div> -->
+
+                    <!-- ====== Toast Notification window - 4 ====== -->
+                    <div class="toast-section">
+                        <div class="css-custom-toast">
+                            <div class="toast-content">
+                                <img src="icons/Vector.svg" alt="">
+                                <div class="text">
+                                    <small>20% off on next booking</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-x fa-2xs"></i>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- ===== Every moment is Precious Section End -->
+
+            
+
+
+
+            
+
 
 
 

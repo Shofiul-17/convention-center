@@ -27,3 +27,57 @@
     background-repeat: no-repeat;
 }
 
+/* ================================================== */
+/* ====== Toast Notification window - 3 Styles ====== */
+/* ================================================== */
+.custom-toast {
+    margin-top: -245px;
+}
+
+/* ================================================== */
+/* ====== Toast Notification window - 4 Styles ======  */
+/* ================================================== */
+.toast-section {
+    .width: 265px;
+    height: 42px;
+}
+
+.css-custom-toast {
+    display: flex;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.2);
+    border-left: 8px solid #3F87F5;
+    padding: 6px 8px;
+    position: absolute;
+    right: 24px;
+    margin-top: -245px;
+    background-color: white;
+}
+
+.toast-content > img {
+    padding-left: 5px;
+}
+
+.toast-content {
+    display: flex;
+}
+.toast-content > .text {
+    padding: 6px 24px 0 5px;
+    color: #505050;
+}
+.css-custom-toast > i {
+    padding-top: 5px;
+    color: #505050;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

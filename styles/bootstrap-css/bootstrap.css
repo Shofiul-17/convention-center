@@ -8552,10 +8552,9 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  /* ===== Committee by Jony ===== */
-  /* --bs-text-opacity: 1;
+  --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important; */
-  /* color: #3F87F5; */
+  
 }
 
 .text-success {
