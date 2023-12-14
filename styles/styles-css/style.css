@@ -35,10 +35,10 @@
 }
 
 /* ================================================== */
-/* ====== Toast Notification window - 4 Styles ======  */
+/* ====== Toast Notification window - 4 Styles ====== */
 /* ================================================== */
 .toast-section {
-    .width: 265px;
+    width: 265px;
     height: 42px;
 }
 
@@ -71,9 +71,23 @@
 
 
 
+.fa-check {
+    width: 22px;
+    height: 22px;
+    background: #5243c21a;
+    border-radius: 50%;
+}
 
 
-
+/* ========================================= */
+/* ====== Our Package column 3 Styles ====== */
+/* ========================================= */
+.our-package-col-3 {
+    background-color: #3F87F5;
+    box-shadow: -1px -1px 100px rgba(63, 135, 245, 1);
+    border-radius: 25px;
+    
+}
 
 
 
