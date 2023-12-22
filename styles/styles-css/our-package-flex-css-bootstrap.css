@@ -1,0 +1,184 @@
+:root {
+    --black: #231D4F;
+    --gray: #848199;
+    --blue: #3F87F5;
+    --pink: rgba(244, 150, 210, 0.103);
+    --red: #FF4E4E;
+    --white: #FFFFFF;
+    --shadow-color: rgba(63, 135, 245, 0.25);
+    --primary-font: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: var(--primary-font);
+}
+
+.our-package-section {
+
+}
+h2, .our-package-section-title {
+    font-size: 2.375rem;
+    font-weight: 600;
+    text-align: center;
+}
+.details-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.business-container {
+
+}
+.amount {
+    font-size: 2.375rem;
+    font-weight: 600;
+    color: var(--black);
+    padding-bottom: 20px;
+}
+.business-title, 
+.wedding-title, 
+.corporate-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--black);
+    padding-bottom: 15px;
+}
+.discription{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: var(--gray);
+    padding-bottom: 13px;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    color: var(--gray);
+}
+.list > li {
+    display: flex;
+    padding-bottom: 8px;
+}
+li > img {
+    padding-right: 10px;
+}
+
+.our-package-section-btn {
+    width: 12.937rem;
+    height: 2.8125rem;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 1.5rem;
+    color: var(--blue);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    margin-top: 14px;
+
+}
+
+.business-container, 
+.wedding-container, 
+.corporate-container {
+    padding-top: 90px;
+}
+.business-container, 
+.wedding-container, 
+.col-3-container {
+    margin-right: 34px;
+}
+.col-3-container {
+   /* margin-top: 100px; */
+}
+
+/* .bg-check {
+    width: 20px;
+    height: 20px;
+} */
+
+/* ========================================= */
+/* ====== Our Package column 3 Styles ====== */
+/* ========================================= */
+.our-package-col-3-bg {
+    /* background: rgba(63, 136, 245, 1); */
+    /* padding: 0 1.8rem; */
+
+    background-color: var(--blue);
+    width: 18.25rem;
+    border-radius: 1.625rem;
+    box-shadow: 0 42px 34px;
+    padding: 50px 0 43px 30px;
+    color: var(--shadow-color);
+}
+.col-3-amount {
+    font-size: 2.375rem;
+    font-weight: 600;
+    color: var(--white);
+    padding-bottom: 20px;
+    /* padding: 50px 0 20px 0; */
+}
+.col-3-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--white);
+    padding-bottom: 15px;
+}
+.col-3-discription{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: var(--white);
+    padding-bottom: 13px;
+}
+.col-3-list {
+    list-style: none;
+    padding: 0;
+    color: var(--white);
+}
+.col-3-list > li {
+    display: flex;
+    padding-bottom: 8px;
+}
+.btn-col-3 {
+    width: 14.5rem;
+    padding: 0.775rem 0;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--white);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--blue);
+    margin-top: 14px;
+}
+
+.our-package-col-3-bg-img {
+    background-image: url("../../icons/watermark.svg");
+    background-repeat: no-repeat;
+    background-position: 195px 10px;
+    overflow: hidden;
+    /* border-radius: 1.625rem;   */
+    /* transform: rotate(10deg); */
+    
+}
+.col-3-badge {
+    width: 2.875rem;
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    border-radius: 13.5px;
+    font-size: 0.875;
+    font-weight: 900;
+    position: absolute;
+    display: inline-block;
+    /* right: 34%;
+    top: 13.3%; */
+    /* vertical-align: baseline; */
+    transform: translate(200px, -60px);
+}
+
+
+.hide {
+    display: none;
+}
+
