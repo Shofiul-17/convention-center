@@ -71,6 +71,7 @@
 
 
 
+
 .fa-check {
     width: 20px;
     height: 20px;
@@ -93,10 +94,15 @@
     
 }
 
+/* .our-package-col-3-bg-img {
+    background-image: url("../../icons/watermark.svg");
+    background-repeat: no-repeat;
+    background-position: right -44px top -1px;
+} */
 .our-package-col-3-bg-img {
     background-image: url("../../icons/watermark.svg");
     background-repeat: no-repeat;
-    background-position: right -55px top -1px;
+    background-position: right -35px top -1px;
 }
 
 

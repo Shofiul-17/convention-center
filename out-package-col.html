@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Our Paclage</title>
+    <title>Row & Col Bootstrap</title>
 
         <!-- ===== CSS stylesheet reference link =====  -->
         <!-- <link rel="stylesheet" href="styles/styles-css/style.css"> -->
-        <link rel="stylesheet" href="styles/styles-css/style.css">
+        <link rel="stylesheet" href="styles/styles-css/out-package-col.css">
 
         <!-- ===== Bootstrap.css stylesheet reference link =====  -->
         <link rel="stylesheet" href="styles/bootstrap-css/bootstrap.css">
@@ -23,93 +23,77 @@
     <section class="container mb-5 mx-5 px-5">
         <h6 class="display-6 fw-bold text-center pb-5 mb-5">Our package</h6>
         <div class="row">
-            <div class="col-md-3 mt-5 pt-5">
-                <p class="display-6 fw-bold">$300</p>
-                <h5 class="h3 fw-bold">Business fair</h5>
-                <p class=" text-secondary">For most businesses event <br> like book fair, craft fair.</p>
+            <div class="col mt-5 ms-5 pt-5 ps-4">
+                <p class="fs-2 fw-bold">$300</p>
+                <p class="fs-4 fw-bold">Business fair</p>
+                <small class=" text-secondary">For most businesses event <br> like book fair, craft fair.</small>
                 <ul class="our-package-ul list-unstyled text-secondary">
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Limited space access</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Secuirty facility</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Event support</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Cla Decoration design</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Per day bill</li>
+                    <li class="d-flex py-1 pt-3"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Limited space access</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Secuirty facility</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Event support</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Decoration design</small></li>
+                    <li class="d-flex py-1 pb-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Per day bill</small></li>
                 </ul>
-                <button class="btn-custom-for-our-package-section btn-lg text-primary fw-medium px-5 rounded-pill" type="button">Choose plan</button>
+                <button class="btn-custom-for-our-package-section btn-lg text-primary fs-6 px-5 rounded-pill" type="button"><small>Choose plan</small></button>
+                <div class="d-grid col-10">
+                    <button class="btn-custom-for-our-package-section btn-lg text-primary fs-6 rounded-pill" type="button"><small>Choose plan</small></button>
+                </div>
             </div>
 
-            <div class="col-md-3 mt-5 pt-5">
-                <p class="display-6 fw-bold">$500</p>
-                <h5 class="h3 fw-bold">Wedding basic</h5>
-                <p class=" text-secondary">For weddings with basic plan <br> and limited item</p>
+            <div class="col-md-3 mt-5 pt-5 ps-5">
+                <p class="fs-2 fw-bold">$500</p>
+                <p class="fs-4 fw-bold">Wedding basic</p>
+                <small class=" text-secondary">For weddings with basic plan <br> and limited item</small>
                 <ul class="our-package-ul list-unstyled text-secondary">
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Full space access</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Food arrangement</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Management support</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Decoration design</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Billed as shift</li>
+                    <li class="d-flex py-1 pt-3"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Full space access</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Food arrangement</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Management support</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Decoration design</small></li>
+                    <li class="d-flex py-1 pb-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Billed as shift</small></li>
                 </ul>
-                <button class="btn-custom-for-our-package-section btn-lg text-primary fw-medium px-5 rounded-pill" type="button">Choose plan</button>
+                <button class="btn-custom-for-our-package-section btn-lg text-primary fs-6 px-5 rounded-pill" type="button"><small>Choose plan</small></button>
+                <div class="d-grid col-10">
+                    <button class="btn-custom-for-our-package-section btn-lg text-primary fs-6 rounded-pill" type="button"><small>Choose plan</small></button>
+                </div>
             </div>
             
-            <div class="col-md-3">
-                <div class="pt-">
-                    <span class="position-absolute start-64 fs-6 ms-5 translate-middle badge rounded-pill bg-danger">Hot</span>
+            <div class="col-md-3 our-package-col-3 our-package-col-3-bg-img opacity-75 px-4">
+                <div class="">
+                    <span class="position-absolute start-62 fs-6 translate-middle badge rounded-pill bg-danger">H-62</span>
                 </div>
-                <div class="our-package-col-3-bg-img  our-package-col-3 text-white py-5 px-4">
-                    <p class="display-6 fw-bold">$800</p>
-                    <h5 class="h3 fw-bold">Wedding plus</h5>
-                    <p class=" text-white">For most weddings with <br> premium plans</p>
+                <div class="text-white pt-5">
+                    <p class="fs-2 fw-bold">$800</p>
+                    <h5 class="fs-2 fw-bold">Wedding plus</h5>
+                    <small class="text-white">For most weddings with <br> premium plans</small>
                     <ul class="our-package-ul list-unstyled">
-                        <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> Full space access</li>
-                        <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> Dedicated team</li>
-                        <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> Buffet food</li>
-                        <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> remium Decoration</li>
-                        <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> pay as plan</li>
+                        <li class="d-flex py-1 pt-3"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-2"></i></small><small>Full space access</small></li>
+                        <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-2"></i></small><small>Dedicated team</small></li>
+                        <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-2"></i></small><small>Buffet food</small></li>
+                        <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-2"></i></small><small>Premium Decoration</small></li>
+                        <li class="d-flex py-1 pb-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-2"></i></small><small>pay as plan</small></li>
                     </ul>
-                    <div class="text-center">
-                        <button type="button" class="btn btn-light btn-lg text-primary fw-medium rounded-pill px-5"><small>Choose plan</small></button>
+                    <button type="button" class="btn btn-light btn-lg fs-6 fw-bold text-primary rounded-pill px-5"><small>Choose plan</small></button>
+                    <div class="d-grid col-11 mx-auto">
+                        <button class="btn btn-light btn-lg fs-6 fw-bold text-primary rounded-pill" type="button"><small>Choose plan</small></button>
                     </div>
                 </div>
             </div>
             
-                
-                    
-                    
-            <!-- <div class="col-3-container our-package-col-3-bg-img our-package-col-3 ">
-                <div class=" ">
-                    <div class="pb-">
-                        <span class="position-absolute start-60 fs-6 ms-5 translate-middle badge rounded-pill bg-danger">Hot</span>
-                    </div>
-                    <div class="text-white px-5 position-relative bottom-50">
-                        <div class="">
-                            <p class="display-6 fw-bold">$800</p>
-                            <h5 class="h3 fw-bold">Wedding plus</h5>
-                            <p class="text-white text-break">For most weddings with <br> premium plans</p>
-                        </div>
-                        <ul class="our-package-ul list-unstyled">
-                            <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> Full space access</li>
-                            <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> Dedicated team</li>
-                            <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> Buffet food</li>
-                            <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> remium Decoration</li>
-                            <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center text-white col-3-check me-3"></i> pay as plan</li>
-                        </ul>
-                        <button type="button" class="btn btn-light btn-lg ms-auto fs-6 fw-bold text-primary rounded-pill px-5">Choose plan</button>
-                    </div>
-                </div>
-            </div>   -->
-            
-            <div class="col-md-3 mt-5 pt-5">
-                <p class="display-6 fw-bold">$1200</p>
-                <h5 class="h3 fw-bold">Corporate event</h5>
-                <p class=" text-secondary me-5 pe-4">For most corporate business <br> events</p>
+            <div class="col-md-3 mt-5 pt-5 ps-5">
+                <p class="fs-2 fw-bold">$1200</p>
+                <p class="fs-4 fw-bold">Corporate event</p>
+                <small class=" text-secondary me pe-">For most corporate business <br> events</small>
                 <ul class="our-package-ul list-unstyled text-secondary">
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Full space access</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Dedicated team</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> Buffet food</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> premium Decoration</li>
-                    <li class="d-flex py-1"><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-3"></i> pay as plan</li>
+                    <li class="d-flex py-1 pt-3"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Full space access</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Dedicated team</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>Buffet food</small></li>
+                    <li class="d-flex py-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>premium Decoration</small></li>
+                    <li class="d-flex py-1 pb-1"><small><i class="fa-solid fa-check d-flex justify-content-center align-items-center me-2"></i></small><small>pay as plan</small></li>
                 </ul>
-                <button class="btn-custom-for-our-package-section btn-lg text-primary fw-medium px-5 rounded-pill" type="button">Choose plan</button>
+                <button class="btn-custom-for-our-package-section btn-lg text-primary fs-6 px-5 rounded-pill" type="button"><small>Choose plan</small></button>
+                <div class="d-grid col-10">
+                    <button class="btn-custom-for-our-package-section btn-lg text-primary fs-6 rounded-pill" type="button"><small>Choose plan</small></button>
+                </div>
             </div>
         </div>
     </section>
