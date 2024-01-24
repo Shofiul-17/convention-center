@@ -63,17 +63,66 @@
     <body class="">
         <!-- ===== Header with Navbar Start -->
         <header class="">
+            <div class="">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="row">
+                        <div class="col-4">
+                            <!-- ===== bg-body-tertiary class committed on bootstrap.css styles file that's why class name is mentioned in Nav tag but style doesn't shows on the web page -->
+                            <a class="navbar-brand fw-bold d-none d-md-block" href="#">Abacus Convention Center</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-8 align-items-end">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Contact
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link disabled" aria-disabled="true">Subscribe</a> -->
+                                    <a class="nav-link text-black" aria-disabled="true">Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            
+            
+                
+        
             <div>
                 <!-- ===== bg-body-tertiary class committed on bootstrap.css styles file that's why class name is mentioned in Nav tag but style doesn't shows on the web page -->
-                <nav class="navbar navbar-expand-lg bg-body-tertiary container py-md-4 py-4 px-md-5 px-3">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary container py-4 px-5 d-none">
                     <div class="container-fluid">
                         <div class="">
-                            <!-- This code will display navbar brand name (Abacus Convention Center) in one line on large device -->
-                            <a class="navbar-brand fw-bold d-none d-md-block" href="#">Abacus Convention Center</a>
-                            <!-- This code will display navbar brand name (Abacus Convention Center) in two line on small device -->
-                            <a class="navbar-brand fw-bold fs-6 d-md-none" href="#">Abacus Convention <br>Center</a>
+                            
+                            <div class="c">
+                                <!-- This code will display navbar brand name (Abacus Convention Center) in one line on large device -->
+                                <a class="navbar-brand fw-bold d-none d-md-block" href="#">Abacus Convention Center</a>
+                                <!-- This code will display navbar brand name (Abacus Convention Center) in two line on small device -->
+                                <a class="navbar-brand fw-bold d-md-none" href="#">Abacus Convention <br>Center</a>
+                            </div>
                         </div>
-                        <button class="navbar-toggler p-1 border-0" type="button" data-bs-toggle="collapse" 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -110,7 +159,7 @@
     <!-- ===== Header with Navbar End -->
     
     <!-- ===== Banner Section Start -->
-    <section class="">
+    <section class="d-none">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -120,21 +169,16 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="banner-img-1">
+                    <div class="banner-img-1 banner">
                         <!-- <img src="..." class="d-block w-100" alt="..."> -->
                         <!-- <img src="images/banner.png" class="d-block w-100" alt="..."> -->
                         <!-- <img src="images/banner.png" class="img-fluid d-none d-md-block" alt="...">
                             <img src="images/banner-small-device.png" class="d-md-none" alt="..."> -->
-                            <div class="banner-img-1 d-none d-md-block">
-                                <img src="images/banner.png" class="" alt="...">
-                            </div>
-                            <div class="d-md-none">
-                                <img src="images/banner-small-device.png" class="" alt="...">
-                            </div>
-                            <div class="carousel-caption d-md-block p-sm-0">
-                                <h5 class="display-5 fw-bold d-none d-md-block">The perfect venue for your <br> <span class="">next event</span></h5>
-                                <h5 class="display-6 fw-bold fs-6 d-md-none">The perfect venue for your <br> next event</h5>
-                                <p class="p-sm-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit</p>
+                            <img src="images/banner.png" class="img-fluid " alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="display-5 fw-bold d-none d-md-block">The perfect venue for your <br> next event</h5>
+                                <h5 class="display-6 fw-bold d-md-none">The perfect venue for your <br> next event</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit</p>
                                 <!-- <button type="button" class="btn btn-light btn-lg text-primary fw-bold px-5 py-2 mt-3 mb-5">Book Now</button> -->
                                 <!-- <button type="button" class="btn btn-light btn-lg text-primary fw-bold px-5 py-2 mt-3 mb-5">Book Now</button> -->
                                 <button type="button" class="btn btn-light btn-lg text-primary fw-bold px-5 mb-5">Book Now</button>
@@ -183,7 +227,8 @@
             </div>
         </section>
         <!-- ===== Banner Section End -->
-    
+        
+        
         <!-- ===== Main Section Start -->
         <main>
             <!-- ===== Every moment is Precious Section Start -->
@@ -334,7 +379,7 @@
             <!-- ===== Our Package Section End -->
 
             <!-- ===== Happy Clients says Section Start -->
-            <section class="container pt-5 pb-5 mb-5 d-none">
+            <section class="container pt-5 mb-5 d-none">
                 <h6 class="display-6 fw-bold text-center align-items-center pb-5 mb-5">Happy Clients says</h6>
                 <div class="d-flex justify-content-center gap-5">
                     <div class="w-50 shadow-lg text-center pt-4 pb-2 px-5 rounded">
@@ -353,11 +398,12 @@
                         <p class="fw-bold pt-3">Cret Yater<br><span class="text-secondary">Banker</span></p>
                     </div>
                 </div>
+
             </section>
             <!-- ===== Happy Clients says Section End -->
 
             <!-- ===== Frequently Asked Questions Section Start -->
-            <section class="container mb-5 py-5 d-none">
+            <section class="container d-none">
                 <h6 class="display-6 fw-bold text-center pb-5 mb-5">Frequently Asked Questions</h6>
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="me-4">
